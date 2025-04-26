@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar';
+import HomePage from './components/HomePage';
 
-function App() {
+const App = () => {
   return (
-    <div className='bg-amber-500 text-center '>
-      hello world 
+    <div className="font-sans text-gray-900">
+      <Navbar />
+      <HomePage />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

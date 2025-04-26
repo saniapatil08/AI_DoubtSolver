@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-500 p-4 text-white flex items-center justify-between">
       <div className="flex items-center">
-        <img src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
-        <span className="text-xl font-semibold">Smart Doubt Solver</span>
+      <img src="/image-removebg-preview.png" alt="Logo" className="h-12 w-12 mr-2" />
+        <span className="text-2xl font-bold">Smart Doubt Solver</span>
       </div>
     </nav>
   );
